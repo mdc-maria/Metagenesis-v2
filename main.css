@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'boogy_brut_poster_testwhite';
+    font-family:'boogy_brut_poster_testwhite';
     src: url('boogybrutpostertest-white-webfont.woff2') format('woff2'),
          url('boogybrutpostertest-white-webfont.woff') format('woff');
     font-weight: normal;
@@ -77,7 +77,7 @@ float: right;
 
 #text-01{
     
-    font-family: 'boogy';
+    font-family:'boogy_brut_poster_testwhite';
     text-align: center;
     width: 100%;
     color: #FFFFFF;
