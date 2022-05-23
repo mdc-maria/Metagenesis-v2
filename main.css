@@ -24,12 +24,23 @@ body {
     box-sizing: border-box;
 }
 
+#backcontainer {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -99;
+    
+}
 #myVideo {
     position: fixed;
-    right: 0;
-    bottom: 0;
-    width:100%;
-    height:100%;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: 0;
+   
 }
 
 .menu{
