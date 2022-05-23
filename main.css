@@ -8,9 +8,14 @@
 }
 }
 @font-face {
-    font-family: neuehaas;
-    src: url(.../fonts/neuehass/boogybrutpostertest-white-webfont.woff) format ('woff');
-    }
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('NeueHaasDisplay-Roman.woff2') format('woff2'),
+        url('NeueHaasDisplay-Roman.woff') format('woff'),
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 body { 
     margin: 0px;
@@ -89,7 +94,7 @@ float: right;
 
 
 #text-02{
-    font-family: 'neuehaas';
+    font-family: 'Neue Haas Grotesk Display Pro';
     width: 100%;
     text-align: center;
     color: #FFFFFF;
