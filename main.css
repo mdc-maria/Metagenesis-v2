@@ -65,11 +65,10 @@ float: right;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-    font-family: 'boogy';
+    font-family: 'boogy_brut_poster_testwhite';
     }
 
 .queromorrer{
-    transform-origin: center;
     margin-top:25%;
     margin-bottom:25%;
     position: relative;
