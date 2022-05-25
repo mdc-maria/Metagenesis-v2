@@ -6,7 +6,7 @@
     font-style: normal;
 
 }
-}
+
 @font-face {
     font-family: 'Neue Haas Grotesk Display Pro';
     src: url('NeueHaasDisplay-Roman.woff2') format('woff2'),
@@ -16,6 +16,7 @@
     
 }
 
+audio { display:none;}
 
 body { 
     margin: 0px;
@@ -24,8 +25,7 @@ body {
     box-sizing: border-box;
 }
 
-audio:not([controls]) {
-    display: none;}
+
 
 #backcontainer {
     position: fixed;
