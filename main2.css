@@ -38,8 +38,9 @@ body {
  margin-top: 1%;
  margin-bottom: 1%;
  text-align: center;
- position: relative;
+ position: fixed;
 z-index: 1;
+overflow: hidden;
 
 
 }
