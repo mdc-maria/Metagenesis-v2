@@ -27,7 +27,6 @@ body{
 
 #main-container {
     width: 100%;
-    min-width: 100%;
     height: auto;
     display: flex;
     overflow: scroll;
@@ -35,6 +34,7 @@ body{
     text-align: center;
     position:relative;
     overflow-x: hidden;
+    margin: 0;
     }
 
 
