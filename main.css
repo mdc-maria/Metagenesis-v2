@@ -128,7 +128,8 @@ footer {
     color: white;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 11px;
+    line-height:15px;
     font-family: 'Neue Haas Grotesk Display Pro';
          
 }
