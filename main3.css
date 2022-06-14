@@ -161,6 +161,7 @@ body{
     position: absolute;
     margin-right: 25%;
     margin-left: 25%;
+    overflow: hidden;
     }
 
 #title-03{
@@ -175,6 +176,7 @@ body{
     letter-spacing: 3px;
     position: absolute;
     z-index: 100;
+    overflow: hidden;
     }
 
 #text-03{
@@ -184,7 +186,7 @@ body{
     height: auto;
     font-family:'Neue Haas Grotesk Display Pro';
     padding-top: 125%;
-    text-align: center;
+    text-align:justify;
     color: #FFFFFF;
     font-size: 16px;
     line-height:20px;
@@ -208,5 +210,6 @@ footer {
     font-size: 11px;
     line-height:15px;
     font-family: 'Neue Haas Grotesk Display Pro';
+    overflow: hidden;
          
 }
