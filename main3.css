@@ -194,6 +194,7 @@ body{
     z-index: 2;
     position: absolute;
     hyphens: auto;
+    overflow-x: hidden;
     }
 
 footer {
