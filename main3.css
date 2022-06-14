@@ -31,7 +31,7 @@ body{
     display: flex;
     overflow: scroll;
     flex-direction: column;
-    text-align: center;
+    text-align:justify;
     position:relative;
     overflow-x: hidden;
     margin: 0;
