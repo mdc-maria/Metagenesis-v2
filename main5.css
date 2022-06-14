@@ -17,7 +17,7 @@
 
 
 body { 
-    background-color: black;
+    background-color:khaki;
     width: 100%;
     height: auto;
     min-width: 60%;
@@ -91,7 +91,7 @@ body {
     width: 100%;
     color: #FFFFFF;
     font-size: 80px; 
-    letter-spacing: 5px;
+    letter-spacing:0.2em
     opacity: 1;
     
 }
@@ -109,66 +109,78 @@ body {
 }
 
 .second-container{
-    width: 100%;
+    width: 50%;
     height: auto;
     box-sizing: border-box;
     flex-direction:column;
-    justify-content: center;
-   
-}
-
-#text-01 { 
-    margin-top: 5%;
-    height: auto;
-    margin-left: 25%;
+    display: flex;
     margin-right: 25%;
-    font-family:'Neue Haas Grotesk Display Pro';
-    text-align:justify;
-    text-align-last: center;
-    color: #FFFFFF;
-    font-size: 16px;
-    line-height:125%;
-    position: absolute;
-    overflow-x: hidden;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+font-family: 'Neue Haas Grotesk Display Pro';
+font-weight: normal;
+font-size: 16px;
+padding-top: 15%;
+text-align:justify;
+text-align-last: center;
+color: #FFFFFF;
+line-height: 125%;
 }
 
 
-.title-02 {
-    margin-top: 15%;
+h1{ 
     text-transform: uppercase;
+    height: auto;
     font-family:'boogy_brut_poster_testwhite';
-    text-align:center;
+    text-align: center;
     width: 100%;
     color: #FFFFFF;
-    font-size: 60px; 
-    letter-spacing: 3px;
-    display: block;
+    font-size: 65px; 
     font-weight: normal;
-    overflow-x: hidden;
-
+    letter-spacing: 3px;
+    padding-top: 10%;
+    
+    
 }
 
 #video {
-    margin-top: 5%;
-    width:50%;
-    z-index: 99;
-    position: absolute;
-    margin-right: 25%;
-    margin-left: 25%;
-    overflow: hidden;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    
     }
 
-.title-03 {
-    margin-top: 45%;
-    text-transform: uppercase;
-    font-family:'boogy_brut_poster_testwhite';
-    text-align:center;
-    width: 100%;
-    color: #FFFFFF;
-    font-size: 60px; 
-    letter-spacing: 3px;
-    display: block;
-    font-weight: normal;
-    overflow-x: hidden;
+p1 {
+font-family: 'Neue Haas Grotesk Display Pro';
+font-weight: normal;
+font-size: 16px;
+text-align:justify;
+text-align-last: center;
+color: #FFFFFF;
+line-height: 125%;
+}
 
+footer {
+    width:  100%;
+    overflow:hidden;
+    height: 40px;
+    margin-top: 3%;
+    
+    }
+
+#title_001{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height:125%;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    overflow: hidden;
+         
 }
