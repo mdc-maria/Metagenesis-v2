@@ -87,7 +87,7 @@ position: fixed;
     align-items: center;
     position: fixed;
    justify-content: center;
-    margin-top: 7%;
+   bottom: -100%;
     
 }
 
@@ -127,17 +127,6 @@ letter-spacing: 0.3px;
 word-spacing: 0.3px;
 }
 
-p2 {
-font-family: 'Neue Haas Grotesk Display Pro';
-font-weight: normal;
-font-size: 12px;
-text-align:justify;
-text-align-last: center;
-color: #FFFFFF;
-text-transform: uppercase;
-letter-spacing: 0.3px;
-word-spacing: 0.3px;
-}
+
 
          
-}
