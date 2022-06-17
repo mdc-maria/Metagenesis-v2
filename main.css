@@ -43,7 +43,7 @@ body {
 	bottom: 0;
 	min-width: 100%;
 	min-height: 100%;
-	z-index: 0;
+	z-index: -99;
     
 }
 
@@ -77,9 +77,18 @@ border-width: 0 2px 2px 0;
 margin-right: 15px;
 }
 
-#ibackground {
-width: 100%;
-height: 100%;
-position: relative;
+.Madwoman {
+background-image: url("Experiencias%20web.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    margin-bottom: 0px;
+    overflow: scroll;
+    
+    
+
 }
     

@@ -84,11 +84,11 @@ position: fixed;
     box-sizing: border-box;
     flex-direction:column;
     display: flex;
-    align-ite´s: center;
     justify-items: center;
     position: fixed;
     margin-top: 40px;
    justify-content: center;
+    position: fixed;
 
     
 }
@@ -100,7 +100,7 @@ h1{
     font-family:'boogy_brut_poster_testwhite';
     text-align: center;
     color: #FFFFFF;
-    font-size: 70px; 
+    font-size: 65px; 
     font-weight: normal;
     letter-spacing: 3px;
     padding: 0%;
