@@ -29,7 +29,7 @@ body {
 }
 
 .imgbg{
- z-index: -99;
+z-index: -99;
 vertical-align: middle;
 position:absolute;
 overflow: scroll;

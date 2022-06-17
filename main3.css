@@ -77,69 +77,18 @@ position: fixed;
     z-index: 1;
 }
 
-.main-container{
-    width: 100%;
-    height: 50%;
-    display: block;
-    flex-direction:column;
-    justify-content: center;
-    z-index: 2;
-    position: relative;
-}
-
-.container-2{
-    height: 100%;
-    margin-top:22%;
-    margin-bottom:22%;
-    position: relative;
-    text-transform: uppercase;
-}
-
-
-#title-01{
-    font-family:'boogy_brut_poster_testwhite';
-    text-align: center;
-    width: 100%;
-    color: #FFFFFF;
-    font-size: 80px; 
-    letter-spacing:0.2em
-    opacity: 1;
-    
-}
-
-.arrow {
-    width: 100%;
-    height: auto;
-    display: flex;
-    margin-left: 50%;
-    margin-right: 50%;
-}
-
-#button1{
-    height:7px;
-}
 
 .second-container{
-    width: 50%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     box-sizing: border-box;
     flex-direction:column;
     display: flex;
-    margin-right: 25%;
-    margin-left: 25%;
     align-items: center;
-    justify-content: center;
-}
-
-p {
-font-family: 'Neue Haas Grotesk Display Pro';
-font-weight: normal;
-font-size: 16px;
-padding-top: 15%;
-text-align:justify;
-text-align-last: center;
-color: #FFFFFF;
-line-height: 125%;
+    position: fixed;
+   justify-content: center;
+    margin-top: 6%;
+    
 }
 
 
@@ -148,50 +97,35 @@ h1{
     height: auto;
     font-family:'boogy_brut_poster_testwhite';
     text-align: center;
-    width: 100%;
     color: #FFFFFF;
-    font-size: 65px; 
+    font-size: 70px; 
     font-weight: normal;
-    letter-spacing: 4px;
-    padding-top: 10%;
-    
-    
+    letter-spacing: 3px;
+    padding: 0%;
+    margin: 0%;
 }
 
-#video {
-    display: flex;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 0;
-    
-    }
+h1 a:any-link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+h1 a:hover {
+    text-decoration: none;
+    opacity: 0.7;}
 
 p1 {
 font-family: 'Neue Haas Grotesk Display Pro';
 font-weight: normal;
-font-size: 16px;
+font-size: 12px;
 text-align:justify;
 text-align-last: center;
 color: #FFFFFF;
-line-height: 125%;
+margin-bottom: 1.5%;
+text-transform: uppercase;
+letter-spacing: 0.3px;
+word-spacing: 0.3px;
 }
 
-footer {
-    width:  100%;
-    overflow:hidden;
-    height: 40px;
-    margin-top: 3%;
-    
-    }
-
-#title_001{
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 11px;
-    line-height:125%;
-    font-family: 'Neue Haas Grotesk Display Pro';
-    overflow: hidden;
          
 }
