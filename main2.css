@@ -105,6 +105,7 @@ font-family:'boogy_brut_poster_testwhite';
     letter-spacing: 2px;
     opacity: 1;
     text-decoration: none;
+     bottom: 0;
     
 }
 
@@ -115,6 +116,7 @@ font-family:'boogy_brut_poster_testwhite';
     color: #FFFFFF;
     font-size: 14px;
     text-decoration: none;
+     bottom: 0;
 } 
 
 
