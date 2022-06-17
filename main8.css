@@ -30,11 +30,11 @@ body {
 .imgbg{
 z-index: -99;
 width: 100%;
-height: 77%;
+height: 99%;
 vertical-align: middle;
 position:absolute;
 overflow: scroll;
-margin-top: 23%;
+margin: 0;
 }
 
 
