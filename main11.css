@@ -26,7 +26,6 @@ body {
     flex-direction:column;
     overflow-x: hidden;
     align-items: center;
-   
 }
 
 .imgbg{
@@ -50,7 +49,6 @@ margin: 0;
     float: right;
     writing-mode:vertical-rl;
     margin-top: 4%;
-    overflow-x: hidden;
     
 }
 
@@ -103,7 +101,6 @@ position: fixed;
     justify-content: center;
     z-index: 2;
     position: relative;
-    overflow-x: hidden;
 }
 
 .container-2{
@@ -112,7 +109,6 @@ position: fixed;
     margin-bottom:22%;
     position: relative;
     text-transform: uppercase;
-    overflow-x: hidden;
 }
 
 
@@ -193,7 +189,6 @@ h1{
     margin-left: 25%;
     margin-right:25%;
     margin-top: 3%;
-    overflow-x: hidden;
    
     
     
@@ -229,7 +224,6 @@ footer {
     overflow:hidden;
     height: 40px;
     margin-top: 3%;
-    overflow-x: hidden;
     
     }
 
