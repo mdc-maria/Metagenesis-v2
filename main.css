@@ -86,7 +86,8 @@ background-image: url("Experiencias%20web.png");
     background-position: center;
     position: absolute;
     margin-bottom: 0px;
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
     
     
 
