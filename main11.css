@@ -237,3 +237,6 @@ footer {
     overflow: hidden;
          
 }
+
+.pointer-effect:hover {
+	cursor: pointer;
