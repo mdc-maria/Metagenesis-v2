@@ -23,7 +23,6 @@ body {
     min-width: 60%;
     margin: 0%;
     display: flex;
-    position: relative;
     flex-direction:column;
     overflow-x: hidden;
 }
@@ -31,7 +30,7 @@ body {
 .imgbg{
  z-index: -99;
 vertical-align: middle;
-position:absolute;
+position:relative;
 overflow: scroll;
 }
 
@@ -84,7 +83,8 @@ position: fixed;
     flex-direction:column;
     justify-content: center;
     z-index: 2;
-    position: relative;
+    top: 0;
+    position: absolute;
 }
 
 .container-marker{
@@ -103,7 +103,6 @@ position: fixed;
 .container-2{
     height: 100%;
     margin-top:22%;
-    margin-bottom:22%;
     position: relative;
     text-transform: uppercase;
 }
@@ -206,21 +205,18 @@ color: #FFFFFF;
 line-height: 125%;
 }
 
-footer {
-    width:  100%;
-    overflow:hidden;
-    height: 40px;
-    margin-top: 3%;
-    
-    }
-
 #title_001{
     color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height:auto;
     text-align: center;
     text-transform: uppercase;
     font-size: 11px;
     line-height:125%;
     font-family: 'Neue Haas Grotesk Display Pro';
-    overflow: hidden;
-         
+   overflow: hidden;
+    
+    
 }

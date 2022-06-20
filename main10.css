@@ -38,7 +38,6 @@ align-items: center;
 position:absolute;
 overflow: scroll;
 margin: 0;
-    top: 0;
 }
 
 
@@ -98,13 +97,14 @@ position: fixed;
 
 .main-container{
     width: 100%;
-    height: 50%;
+    height: 20%;
     display: block;
     flex-direction:column;
     justify-content: center;
     z-index: 2;
     position: relative;
     overflow-x: hidden;
+    background-color: aqua;
 }
 
 .container-2{
@@ -132,13 +132,15 @@ position: fixed;
 .arrow {
     width: 100%;
     height: auto;
-    display: flex;
+
     margin-left: 50%;
     margin-right: 50%;
+    position: absolute;
 }
 
 #button1{
     height:7px;
+    position: relative;
 }
 
 .second-container{
