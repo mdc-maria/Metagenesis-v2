@@ -54,16 +54,16 @@ position: fixed;
 
 
 .header a.logo {
-    padding-left: 54px;
     position: relative;
     font-size: 25px;
     width: 100%;
     color: #FFFFFF;
+    margin-left: 2.5%;
     letter-spacing: 2px;
     text-transform: uppercase; 
     font-family: 'boogy_brut_poster_testwhite';
     text-decoration: none;
-    z-index: 3;
+    z-index: 10;
 }
 
 
@@ -73,7 +73,7 @@ position: fixed;
     float: right;
     width: 18px;
     height: auto;
-    padding-right: 15px;
+    padding-right: 0.7%;
     z-index: 1;
 }
 
