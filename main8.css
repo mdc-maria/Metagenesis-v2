@@ -37,7 +37,8 @@ align-items: center;
 position:absolute;
 overflow: scroll;
 margin: 0;
-object-fit:cover;
+top: 0;
+
 }
 
 
