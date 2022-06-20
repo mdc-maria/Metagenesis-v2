@@ -36,10 +36,8 @@ height: 105%;
 vertical-align: middle;
 align-items: center;
 position:absolute;
-overflow: scroll;
-margin: 0px;
-top: 0px;
-bottom: 0px;
+object-fit: cover;
+overflow-x: hidden;
 
 }
 
