@@ -39,6 +39,9 @@ overflow: scroll;
 margin: 0;
 min-height: 100%;
 min-width: 100%;
+object-fit: cover;
+
+
 
 }
 
@@ -237,7 +240,7 @@ footer {
     width:  100%;
     overflow:hidden;
     height: 40px;
-    margin-top: 3%;
+    margin-top: 6%;
     overflow-x: hidden;
     bottom: 0px;
     
