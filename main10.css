@@ -35,9 +35,10 @@ width: 100%;
 height: 105%;
 vertical-align: middle;
 align-items: center;
-overflow: hidden;
+overflow: scroll;
 margin: 0;
 object-fit: cover;
+position: absolute;
 
 
 
@@ -100,11 +101,12 @@ position: fixed;
 
 .main-container{
     width: 100%;
+    height: 50%;
     display: block;
     flex-direction:column;
     justify-content: center;
     z-index: 2;
-    position: absolute;
+    position: relative;
    
     
     
@@ -116,6 +118,7 @@ position: fixed;
     margin-bottom:22%;
     text-transform: uppercase;
     overflow-x: hidden;
+    position: relative;
    
 }
 
@@ -137,8 +140,7 @@ position: fixed;
     margin-left: 50%;
     margin-right: 50%;
     position: absolute;
-    bottom: 0px;
-    margin-bottom: 4%;
+    
 }
 
 #button1{
@@ -156,8 +158,7 @@ position: fixed;
     margin-left: 25%;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    z-index: 20;
+    
     
     
 }
