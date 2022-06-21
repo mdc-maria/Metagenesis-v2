@@ -35,8 +35,9 @@ height: 100%;
 vertical-align: middle;
 align-items: center;
 position:absolute;
-overflow: scroll;
+overflow: hidden;
 margin: 0;
+object-fit: cover;
 }
 
 

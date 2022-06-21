@@ -33,6 +33,7 @@ body {
 vertical-align: middle;
 position:absolute;
 overflow: scroll;
+object-fit: cover;
 }
 
 
