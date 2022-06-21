@@ -223,7 +223,7 @@ footer {
     width:  100%;
     overflow:hidden;
     height: 40px;
-    margin-top: 6%;
+    margin-top: 3%;
     
     }
 
@@ -244,11 +244,13 @@ height: auto;
   position: relative;
 margin: auto;
 margin-bottom: 5%;
+    cursor: pointer;
 
 }
 
 .mySlides {
   display: none;
+    cursor: pointer;
 }
 
 .prev .next {
@@ -264,18 +266,21 @@ margin-bottom: 5%;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select:contain;
+    cursor: pointer;
 }
 
 .next {
 border-radius: 3px 0 0 3px;
 color: #FFFFFF;
 float: right;
+    cursor: pointer;
 }
 
 .prev {
 border-radius: 3px 0 0 3px;
 color: #FFFFFF;
 float: left;
+    cursor: pointer;
 }
 
 .numbertext {
