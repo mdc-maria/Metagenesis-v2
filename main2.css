@@ -28,12 +28,7 @@ body {
     overflow-x: hidden;
 }
 
-.imgbg{
- z-index: -99;
-vertical-align: middle;
-position:absolute;
-overflow: scroll;
-}
+
 
 
 .header {
@@ -85,10 +80,10 @@ position: fixed;
     flex-direction:column;
     display: flex;
     justify-items: center;
-    position: fixed;
     margin-top: 40px;
    justify-content: center;
     position: fixed;
+    align-items: center;
 
     
 }
@@ -120,6 +115,7 @@ p1 {
 font-family: 'Neue Haas Grotesk Display Pro';
 font-weight: normal;
 font-size: 12px;
+height: auto;
 text-align:justify;
 text-align-last: center;
 color: #FFFFFF;
@@ -127,6 +123,7 @@ margin-bottom: 1.5%;
 text-transform: uppercase;
 letter-spacing: 0.3px;
 word-spacing: 0.3px;
+    position: relative;
 }
 
 
