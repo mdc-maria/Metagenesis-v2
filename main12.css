@@ -34,7 +34,7 @@ width: 100%;
 height: 100%;
 vertical-align: middle;
 align-items: center;
-position:relative;
+position:absolute;
 overflow: hidden;
 margin: 0;
 }
@@ -100,7 +100,7 @@ position: fixed;
     flex-direction:column;
     justify-content: center;
     z-index: 2;
-    position: absolute;
+    position: relative;
 }
 
 .container-2{
@@ -142,7 +142,7 @@ position: fixed;
 
 .second-container{
     width: 50%;
-    position: absolute;
+    position: relative;
     height: auto;
     box-sizing: border-box;
     flex-direction:column;
